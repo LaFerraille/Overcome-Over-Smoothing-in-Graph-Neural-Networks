@@ -39,3 +39,12 @@ cd project
 pip install -r requirements.txt
 ```
 
+## References
+- [Deli Chen, Yankai Lin, Wei Li, Peng Li, Jie Zhou, and Xu Sun. Measuring and relieving the over- smoothing problem for graph neural networks from the topological view, 2019.](https://arxiv.org/pdf/1909.03211)
+- [William L. Hamilton, Rex Ying, and Jure Leskovec. Inductive representation learning on large graphs, 2018.](https://arxiv.org/pdf/1706.02216)
+- [T. Konstantin Rusch, Michael M. Bronstein, and Siddhartha Mishra. A survey on oversmoothing in graph neural networks, 2023.](https://arxiv.org/pdf/2303.10993)
+
+## Team
+- Raphaël Ferroni (raphael.romandferroni@student-cs.fr)
+- Alexandre Selvestrel (alexandre.selvestrel@student-cs.fr)
+
