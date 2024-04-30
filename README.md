@@ -3,11 +3,11 @@
 ## Description
 This project explores the challenge of over-smoothing in Graph Neural Networks (GNNs) and evaluates innovative approaches to mitigate its effects. By experimenting with AdaEdge and MADReg, we aim to enhance the predictive power of GNNs. Over-smoothing leads to homogenized node features, diminishing their discriminative power. Our goal is to enhance GNNs' ability to distinguish between node features and thus improve the overall performance of the models. We decided to focus here on the Cora Dataset here illustrated which consists of 2708 scientific publications classified into one of seven classes. The citation network consists of 5429 links. Each publication in the dataset is described by a 0/1-valued word vector indicating the absence/presence of the corresponding word from the dictionary. The dictionary consists of 1433 unique words.
 
-[image](img/cora.png)
+[img/cora.png](img)
 
 **Graph representation of the Cora dataset**
 
-Our results indicate that careful application of regularization techniques can effectively mitigate over-smoothing. A detailed analysis can be found in our [project report](reports/Overcome-Over-Smoothing-in-Graph-Neural-Networks/reports/Overcome-Over-Smoothing-in-Graph-Neural-Networks.pdf).
+Our results indicate that careful application of regularization techniques can effectively mitigate over-smoothing. A detailed analysis can be found in our [reports/Overcome-Over-Smoothing-in-Graph-Neural-Networks/reports/Overcome-Over-Smoothing-in-Graph-Neural-Networks.pdf](project report).
 
 ## Results
 Our findings confirm the effectiveness of AdaEdge and MADReg, especially in networks with fewer layers. We first illustrated the negative correlation between the overall performance of the models, the number of layers and MADGap metric which is a proxy for the over-smoothing in GNN.
